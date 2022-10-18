@@ -25,7 +25,7 @@ public class BinarySearch<T extends Comparable<T>>{
     }
 
     public static void main(String[] args) {
-        BinarySearch<Integer> binarySearch = new BinarySearch<>(new Integer[]{1, 2});
-        System.out.println(binarySearch.search(0));
+        BinarySearch<Integer> binarySearch = new BinarySearch<>(new Integer[]{1, 2, 3});
+        System.out.println(binarySearch.search(3));
     }
 }
