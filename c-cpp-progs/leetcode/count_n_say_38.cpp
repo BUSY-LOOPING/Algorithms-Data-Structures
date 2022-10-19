@@ -11,7 +11,7 @@ public:
             string newOut = "";
             int count = 1;
             for (int j =0; j < output.length(); j++) {
-                if (j < output.length() && output[j] == output[j+1]) {
+                if (j+1 < output.length() && output[j] == output[j+1]) {
                     count++;
                 } else {
                     newOut += (to_string(count)+ output[j]);
