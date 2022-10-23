@@ -1,2 +1,1 @@
-
-            for (int j =0; j < output
+        ListNode* tempNode = res;
